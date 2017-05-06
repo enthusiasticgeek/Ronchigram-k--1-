@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:3:1-64:12
+	xmlns:android
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:3:11-69
+	package
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:22:5-77
+	android:required
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:22:52-75
+	android:glEsVersion
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:22:19-51
+uses-feature#android.hardware.camera2
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:23:19-58
+uses-permission#android.permission.CAMERA
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:24:22-62
+uses-permission#android.hardware.camera.autofocus
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:27:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:29:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:29:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:30:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:30:22-76
+application
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:32:5-62:19
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:35:9-41
+	android:allowBackup
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:33:9-35
+	android:icon
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:34:9-45
+	android:theme
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:38:9-40
+	android:background
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:37:9-37
+	android:textStyle
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:36:9-33
+activity#com.optics.ronchigram.SplashScreen
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:40:9-49:20
+	android:screenOrientation
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:42:13-45
+	android:theme
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:41:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:47:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:51:9-121
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:51:20-65
+	android:value
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:51:66-119
+activity#com.optics.ronchigram.MainActivity
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:54:13-62
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:59:9-61:64
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:60:13-122
+	android:theme
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:61:13-61
+	android:name
+		ADDED from C:\Rochigram_cam\Rochigram\app\src\main\AndroidManifest.xml:59:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Rochigram_cam\Rochigram\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91

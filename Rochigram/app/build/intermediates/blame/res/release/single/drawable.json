@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_control_normal_holo.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_control_normal_holo.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\saturn.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\saturn.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_control.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_control.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\index.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\index.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_track_holo_light2.9.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_track_holo_light2.9.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_background.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\app_background.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_progress.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_progress.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_control_focused_holo.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_control_pressed_holo.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_control_pressed_holo.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_track_holo_light.9.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_track_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\image_border.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\image_border.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_logo.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\loading_logo.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_press.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\button_press.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_primary_holo.9.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_secondary_holo.9.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_image.jpg",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\background_image.jpg"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_background.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gradient_background.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_scrubber_control_disabled_holo.png",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\purple_scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_release.xml",
+        "source": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\drawable\\button_release.xml"
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "outputFile": "C:\\Rochigram_cam\\Rochigram\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "C:\\Rochigram_cam\\Rochigram\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 147
+                    }
+                }
+            }
+        ]
+    }
+]

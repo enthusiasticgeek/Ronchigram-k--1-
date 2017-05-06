@@ -1,0 +1,535 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.media.MediaBrowserCompat$ItemReceiver
+android.support.v4.media.MediaBrowserCompat$MediaItem
+android.support.v4.media.MediaBrowserCompat$MediaItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaBrowserServiceCompat$ServiceImplApi23$1
+android.support.v4.media.MediaDescriptionCompat
+android.support.v4.media.MediaDescriptionCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$QueueItem
+android.support.v4.media.session.MediaSessionCompat$QueueItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.ParcelableVolumeInfo
+android.support.v4.media.session.ParcelableVolumeInfo: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat$CustomAction
+android.support.v4.media.session.PlaybackStateCompat$CustomAction: android.os.Parcelable$Creator CREATOR
+android.support.v4.os.ResultReceiver
+android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setDrawerElevation(float)
+android.support.v4.widget.DrawerLayout: float getDrawerElevation()
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: android.graphics.drawable.Drawable getStatusBarBackgroundDrawable()
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.NestedScrollView: void setNestedScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: int getNestedScrollAxes()
+android.support.v4.widget.NestedScrollView: float getTopFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: float getBottomFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: int getMaxScrollAmount()
+android.support.v4.widget.NestedScrollView: void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener)
+android.support.v4.widget.NestedScrollView: void setFillViewport(boolean)
+android.support.v4.widget.NestedScrollView: void setSmoothScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: float getVerticalScrollFactorCompat()
+android.support.v4.widget.NestedScrollView: int getScrollRange()
+android.support.v4.widget.NestedScrollView$SavedState
+android.support.v4.widget.NestedScrollView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeResource(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+android.support.v4.widget.SwipeRefreshLayout: int getProgressCircleDiameter()
+android.support.v4.widget.SwipeRefreshLayout: int getNestedScrollAxes()
+android.support.v4.widget.SwipeRefreshLayout: void setNestedScrollingEnabled(boolean)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.ads.mediation.AdUrlAdapter
+com.google.ads.mediation.admob.AdMobAdapter
+com.google.ads.mediation.customevent.CustomEventAdapter
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adSizes
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int circleCrop
+com.google.android.gms.R$attr: int imageAspectRatio
+com.google.android.gms.R$attr: int imageAspectRatioAdjust
+com.google.android.gms.R$id: int adjust_height
+com.google.android.gms.R$id: int adjust_width
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int accept
+com.google.android.gms.R$string: int auth_google_play_services_client_facebook_display_name
+com.google.android.gms.R$string: int auth_google_play_services_client_google_display_name
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int create_calendar_message
+com.google.android.gms.R$string: int create_calendar_title
+com.google.android.gms.R$string: int decline
+com.google.android.gms.R$string: int store_picture_message
+com.google.android.gms.R$string: int store_picture_title
+com.google.android.gms.R$style: int Theme_IAPTheme
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] LoadingImageView
+com.google.android.gms.R$styleable: int LoadingImageView_circleCrop
+com.google.android.gms.R$styleable: int LoadingImageView_imageAspectRatio
+com.google.android.gms.R$styleable: int LoadingImageView_imageAspectRatioAdjust
+com.google.android.gms.ads.AdActivity
+com.google.android.gms.ads.AdActivity: AdActivity()
+com.google.android.gms.ads.AdActivity: void setContentView(android.view.View)
+com.google.android.gms.ads.AdView
+com.google.android.gms.ads.AdView: AdView(android.content.Context)
+com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.ads.AdView: java.lang.String getMediationAdapterClassName()
+com.google.android.gms.ads.AdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.purchase.InAppPurchaseListener getInAppPurchaseListener()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.BaseAdView: BaseAdView(android.content.Context,int)
+com.google.android.gms.ads.BaseAdView: BaseAdView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.ads.BaseAdView: BaseAdView(android.content.Context,android.util.AttributeSet,int,int)
+com.google.android.gms.ads.BaseAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.BaseAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.BaseAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.BaseAdView: com.google.android.gms.ads.purchase.InAppPurchaseListener getInAppPurchaseListener()
+com.google.android.gms.ads.BaseAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.BaseAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.BaseAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.BaseAdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
+com.google.android.gms.ads.BaseAdView: java.lang.String getMediationAdapterClassName()
+com.google.android.gms.ads.NativeExpressAdView: java.lang.String getMediationAdapterClassName()
+com.google.android.gms.ads.NativeExpressAdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
+com.google.android.gms.ads.NativeExpressAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.NativeExpressAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.NativeExpressAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.purchase.InAppPurchaseListener getInAppPurchaseListener()
+com.google.android.gms.ads.NativeExpressAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.R$attr: int adSize
+com.google.android.gms.ads.R$attr: int adSizes
+com.google.android.gms.ads.R$attr: int adUnitId
+com.google.android.gms.ads.R$attr: int circleCrop
+com.google.android.gms.ads.R$attr: int imageAspectRatio
+com.google.android.gms.ads.R$attr: int imageAspectRatioAdjust
+com.google.android.gms.ads.R$id: int adjust_height
+com.google.android.gms.ads.R$id: int adjust_width
+com.google.android.gms.ads.R$id: int none
+com.google.android.gms.ads.R$integer: int google_play_services_version
+com.google.android.gms.ads.R$string: int accept
+com.google.android.gms.ads.R$string: int auth_google_play_services_client_facebook_display_name
+com.google.android.gms.ads.R$string: int auth_google_play_services_client_google_display_name
+com.google.android.gms.ads.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.ads.R$string: int create_calendar_message
+com.google.android.gms.ads.R$string: int create_calendar_title
+com.google.android.gms.ads.R$string: int decline
+com.google.android.gms.ads.R$string: int store_picture_message
+com.google.android.gms.ads.R$string: int store_picture_title
+com.google.android.gms.ads.R$style: int Theme_IAPTheme
+com.google.android.gms.ads.R$styleable: int[] AdsAttrs
+com.google.android.gms.ads.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.ads.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.ads.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.ads.R$styleable: int[] LoadingImageView
+com.google.android.gms.ads.R$styleable: int LoadingImageView_circleCrop
+com.google.android.gms.ads.R$styleable: int LoadingImageView_imageAspectRatio
+com.google.android.gms.ads.R$styleable: int LoadingImageView_imageAspectRatioAdjust
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.AppEventListener getAppEventListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.OnCustomRenderedAdLoadedListener getOnCustomRenderedAdLoadedListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setManualImpressionsEnabled(boolean)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdSizes(com.google.android.gms.ads.AdSize[])
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener(com.google.android.gms.ads.doubleclick.AppEventListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setCorrelator(com.google.android.gms.ads.Correlator)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setOnCustomRenderedAdLoadedListener(com.google.android.gms.ads.doubleclick.OnCustomRenderedAdLoadedListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getMediationAdapterClassName()
+com.google.android.gms.ads.formats.NativeAdView: void setNativeAd(com.google.android.gms.ads.formats.NativeAd)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setHeadlineView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setCallToActionView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setIconView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setBodyView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setStoreView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setPriceView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setImageView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: void setStarRatingView(android.view.View)
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getHeadlineView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getCallToActionView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getIconView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getBodyView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getStoreView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getPriceView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getImageView()
+com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getStarRatingView()
+com.google.android.gms.ads.formats.NativeContentAdView: void setHeadlineView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: void setBodyView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: void setCallToActionView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: void setAdvertiserView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: void setImageView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: void setLogoView(android.view.View)
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getHeadlineView()
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getBodyView()
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getCallToActionView()
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getAdvertiserView()
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getImageView()
+com.google.android.gms.ads.formats.NativeContentAdView: android.view.View getLogoView()
+com.google.android.gms.ads.internal.InterstitialAdParameterParcel
+com.google.android.gms.ads.internal.InterstitialAdParameterParcel: com.google.android.gms.ads.internal.zzl CREATOR
+com.google.android.gms.ads.internal.client.AdRequestParcel
+com.google.android.gms.ads.internal.client.AdRequestParcel: com.google.android.gms.ads.internal.client.zzg CREATOR
+com.google.android.gms.ads.internal.client.AdSizeParcel
+com.google.android.gms.ads.internal.client.AdSizeParcel: com.google.android.gms.ads.internal.client.zzi CREATOR
+com.google.android.gms.ads.internal.client.SearchAdRequestParcel
+com.google.android.gms.ads.internal.client.SearchAdRequestParcel: com.google.android.gms.ads.internal.client.zzam CREATOR
+com.google.android.gms.ads.internal.client.ThinAdSizeParcel
+com.google.android.gms.ads.internal.formats.NativeAdOptionsParcel
+com.google.android.gms.ads.internal.formats.NativeAdOptionsParcel: com.google.android.gms.ads.internal.formats.zzj CREATOR
+com.google.android.gms.ads.internal.overlay.AdLauncherIntentInfoParcel
+com.google.android.gms.ads.internal.overlay.AdLauncherIntentInfoParcel: com.google.android.gms.ads.internal.overlay.zzb CREATOR
+com.google.android.gms.ads.internal.overlay.AdOverlayInfoParcel
+com.google.android.gms.ads.internal.overlay.AdOverlayInfoParcel: com.google.android.gms.ads.internal.overlay.zzf CREATOR
+com.google.android.gms.ads.internal.overlay.zzc: void setMimeType(java.lang.String)
+com.google.android.gms.ads.internal.overlay.zzc: void setVideoPath(java.lang.String)
+com.google.android.gms.ads.internal.overlay.zzc: void setVideoURI(android.net.Uri)
+com.google.android.gms.ads.internal.overlay.zzc: int getDuration()
+com.google.android.gms.ads.internal.overlay.zzc: int getCurrentPosition()
+com.google.android.gms.ads.internal.overlay.zzc: int getVideoWidth()
+com.google.android.gms.ads.internal.overlay.zzc: int getVideoHeight()
+com.google.android.gms.ads.internal.overlay.zzi: void setMimeType(java.lang.String)
+com.google.android.gms.ads.internal.overlay.zzi: void setVideoPath(java.lang.String)
+com.google.android.gms.ads.internal.overlay.zzi: int getCurrentPosition()
+com.google.android.gms.ads.internal.overlay.zzi: int getDuration()
+com.google.android.gms.ads.internal.overlay.zzi: int getVideoWidth()
+com.google.android.gms.ads.internal.overlay.zzi: int getVideoHeight()
+com.google.android.gms.ads.internal.overlay.zzk: void setMimeType(java.lang.String)
+com.google.android.gms.ads.internal.purchase.GInAppPurchaseManagerInfoParcel
+com.google.android.gms.ads.internal.purchase.GInAppPurchaseManagerInfoParcel: com.google.android.gms.ads.internal.purchase.zza CREATOR
+com.google.android.gms.ads.internal.request.AdRequestInfoParcel
+com.google.android.gms.ads.internal.request.AdRequestInfoParcel: com.google.android.gms.ads.internal.request.zzf CREATOR
+com.google.android.gms.ads.internal.request.AdResponseParcel
+com.google.android.gms.ads.internal.request.AdResponseParcel: com.google.android.gms.ads.internal.request.zzh CREATOR
+com.google.android.gms.ads.internal.request.CapabilityParcel
+com.google.android.gms.ads.internal.request.CapabilityParcel: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.ads.internal.request.LargeParcelTeleporter
+com.google.android.gms.ads.internal.request.LargeParcelTeleporter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.ads.internal.request.StringParcel
+com.google.android.gms.ads.internal.request.StringParcel: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.ads.internal.reward.client.RewardedVideoAdRequestParcel
+com.google.android.gms.ads.internal.reward.client.RewardedVideoAdRequestParcel: com.google.android.gms.ads.internal.reward.client.zzh CREATOR
+com.google.android.gms.ads.internal.reward.mediation.client.RewardItemParcel
+com.google.android.gms.ads.internal.reward.mediation.client.RewardItemParcel: com.google.android.gms.ads.internal.reward.mediation.client.zzc CREATOR
+com.google.android.gms.ads.internal.util.client.VersionInfoParcel
+com.google.android.gms.ads.internal.util.client.VersionInfoParcel: com.google.android.gms.ads.internal.util.client.zzc CREATOR
+com.google.android.gms.ads.mediation.customevent.CustomEventAdapter
+com.google.android.gms.ads.purchase.InAppPurchaseActivity
+com.google.android.gms.ads.purchase.InAppPurchaseActivity: InAppPurchaseActivity()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.search.SearchAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.search.SearchAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.search.SearchAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.auth.AccountChangeEvent
+com.google.android.gms.auth.AccountChangeEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.AccountChangeEventsRequest
+com.google.android.gms.auth.AccountChangeEventsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.AccountChangeEventsResponse
+com.google.android.gms.auth.AccountChangeEventsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.TokenData
+com.google.android.gms.auth.TokenData: com.google.android.gms.auth.zze CREATOR
+com.google.android.gms.auth.api.signin.EmailSignInOptions
+com.google.android.gms.auth.api.signin.EmailSignInOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.GoogleSignInAccount
+com.google.android.gms.auth.api.signin.GoogleSignInAccount: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.GoogleSignInOptions
+com.google.android.gms.auth.api.signin.GoogleSignInOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.SignInAccount
+com.google.android.gms.auth.api.signin.SignInAccount: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.internal.SignInConfiguration
+com.google.android.gms.auth.api.signin.internal.SignInConfiguration: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.zzd: com.google.android.gms.auth.api.signin.zzd[] values()
+com.google.android.gms.auth.api.signin.zzd: com.google.android.gms.auth.api.signin.zzd valueOf(java.lang.String)
+com.google.android.gms.auth.firstparty.shared.FACLConfig
+com.google.android.gms.auth.firstparty.shared.FACLConfig: com.google.android.gms.auth.firstparty.shared.zza CREATOR
+com.google.android.gms.auth.firstparty.shared.FACLData
+com.google.android.gms.auth.firstparty.shared.FACLData: com.google.android.gms.auth.firstparty.shared.zzb CREATOR
+com.google.android.gms.auth.firstparty.shared.ScopeDetail
+com.google.android.gms.auth.firstparty.shared.ScopeDetail: com.google.android.gms.auth.firstparty.shared.zzc CREATOR
+com.google.android.gms.auth.firstparty.shared.zzd: com.google.android.gms.auth.firstparty.shared.zzd[] values()
+com.google.android.gms.auth.firstparty.shared.zzd: com.google.android.gms.auth.firstparty.shared.zzd valueOf(java.lang.String)
+com.google.android.gms.clearcut.LogEventParcelable
+com.google.android.gms.clearcut.LogEventParcelable: com.google.android.gms.clearcut.zzd CREATOR
+com.google.android.gms.common.ConnectionResult
+com.google.android.gms.common.ConnectionResult: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.annotation.KeepName
+com.google.android.gms.common.api.Scope
+com.google.android.gms.common.api.Scope: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.api.Status
+com.google.android.gms.common.api.Status: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.AuthAccountRequest
+com.google.android.gms.common.internal.AuthAccountRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.BinderWrapper
+com.google.android.gms.common.internal.BinderWrapper: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.DowngradeableSafeParcel
+com.google.android.gms.common.internal.GetServiceRequest
+com.google.android.gms.common.internal.GetServiceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.ResolveAccountRequest
+com.google.android.gms.common.internal.ResolveAccountRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.ResolveAccountResponse
+com.google.android.gms.common.internal.ResolveAccountResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.ValidateAccountRequest
+com.google.android.gms.common.internal.ValidateAccountRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable: java.lang.String NULL
+com.google.android.gms.common.server.FavaDiagnosticsEntity
+com.google.android.gms.common.server.FavaDiagnosticsEntity: com.google.android.gms.common.server.zza CREATOR
+com.google.android.gms.common.server.converter.ConverterWrapper
+com.google.android.gms.common.server.converter.ConverterWrapper: com.google.android.gms.common.server.converter.zza CREATOR
+com.google.android.gms.common.server.converter.StringToIntConverter
+com.google.android.gms.common.server.converter.StringToIntConverter: com.google.android.gms.common.server.converter.zzb CREATOR
+com.google.android.gms.common.server.converter.StringToIntConverter$Entry
+com.google.android.gms.common.server.converter.StringToIntConverter$Entry: com.google.android.gms.common.server.converter.zzc CREATOR
+com.google.android.gms.common.server.response.FastJsonResponse$Field
+com.google.android.gms.common.server.response.FastJsonResponse$Field: com.google.android.gms.common.server.response.zza CREATOR
+com.google.android.gms.common.server.response.FastSafeParcelableJsonResponse
+com.google.android.gms.common.server.response.FieldMappingDictionary
+com.google.android.gms.common.server.response.FieldMappingDictionary: com.google.android.gms.common.server.response.zzc CREATOR
+com.google.android.gms.common.server.response.FieldMappingDictionary$Entry
+com.google.android.gms.common.server.response.FieldMappingDictionary$Entry: com.google.android.gms.common.server.response.zzd CREATOR
+com.google.android.gms.common.server.response.FieldMappingDictionary$FieldMapPair
+com.google.android.gms.common.server.response.FieldMappingDictionary$FieldMapPair: com.google.android.gms.common.server.response.zzb CREATOR
+com.google.android.gms.common.server.response.SafeParcelResponse
+com.google.android.gms.common.server.response.SafeParcelResponse: com.google.android.gms.common.server.response.zze CREATOR
+com.google.android.gms.common.stats.ConnectionEvent
+com.google.android.gms.common.stats.ConnectionEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.stats.WakeLockEvent
+com.google.android.gms.common.stats.WakeLockEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor
+com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor: java.lang.String MODULE_ID
+com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor: int MODULE_VERSION
+com.google.android.gms.flags.impl.FlagProviderImpl
+com.google.android.gms.flags.impl.FlagProviderImpl: FlagProviderImpl()
+com.google.android.gms.flags.impl.FlagProviderImpl: void init(com.google.android.gms.dynamic.zzd)
+com.google.android.gms.flags.impl.FlagProviderImpl: boolean getBooleanFlagValue(java.lang.String,boolean,int)
+com.google.android.gms.flags.impl.FlagProviderImpl: int getIntFlagValue(java.lang.String,int,int)
+com.google.android.gms.flags.impl.FlagProviderImpl: long getLongFlagValue(java.lang.String,long,int)
+com.google.android.gms.flags.impl.FlagProviderImpl: java.lang.String getStringFlagValue(java.lang.String,java.lang.String,int)
+com.google.android.gms.internal.zzk$zza: com.google.android.gms.internal.zzk$zza[] values()
+com.google.android.gms.internal.zzk$zza: com.google.android.gms.internal.zzk$zza valueOf(java.lang.String)
+com.google.android.gms.internal.zzpk$zza: zzpk$zza()
+com.google.android.gms.internal.zzpk$zza: com.google.android.gms.internal.zzpk asInterface(android.os.IBinder)
+com.google.android.gms.internal.zzpk$zza: android.os.IBinder asBinder()
+com.google.android.gms.internal.zzpk$zza: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.google.android.gms.playlog.internal.LogEvent
+com.google.android.gms.playlog.internal.LogEvent: com.google.android.gms.playlog.internal.zzc CREATOR
+com.google.android.gms.playlog.internal.PlayLoggerContext
+com.google.android.gms.playlog.internal.PlayLoggerContext: com.google.android.gms.playlog.internal.zze CREATOR
+com.google.android.gms.signin.internal.AuthAccountResult
+com.google.android.gms.signin.internal.AuthAccountResult: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.signin.internal.CheckServerAuthResult
+com.google.android.gms.signin.internal.CheckServerAuthResult: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.signin.internal.RecordConsentRequest
+com.google.android.gms.signin.internal.RecordConsentRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.signin.internal.SignInRequest
+com.google.android.gms.signin.internal.SignInRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.signin.internal.SignInResponse
+com.google.android.gms.signin.internal.SignInResponse: android.os.Parcelable$Creator CREATOR
+com.optics.ronchigram.MainActivity
+com.optics.ronchigram.MainActivity: MainActivity()
+com.optics.ronchigram.MainView
+com.optics.ronchigram.MainView: MainView(android.content.Context,android.util.AttributeSet)
+com.optics.ronchigram.MainView: int getZoomSetting()
+com.optics.ronchigram.MainView: void setZoomSetting(int)
+com.optics.ronchigram.R$attr: int adSize
+com.optics.ronchigram.R$attr: int adSizes
+com.optics.ronchigram.R$attr: int adUnitId
+com.optics.ronchigram.R$attr: int circleCrop
+com.optics.ronchigram.R$attr: int imageAspectRatio
+com.optics.ronchigram.R$attr: int imageAspectRatioAdjust
+com.optics.ronchigram.R$drawable: int app_background
+com.optics.ronchigram.R$drawable: int background_image
+com.optics.ronchigram.R$drawable: int button_background
+com.optics.ronchigram.R$drawable: int button_press
+com.optics.ronchigram.R$drawable: int button_release
+com.optics.ronchigram.R$drawable: int camera_border
+com.optics.ronchigram.R$drawable: int gradient_background
+com.optics.ronchigram.R$drawable: int ic_launcher
+com.optics.ronchigram.R$drawable: int image_border
+com.optics.ronchigram.R$drawable: int index
+com.optics.ronchigram.R$drawable: int loading_logo
+com.optics.ronchigram.R$drawable: int purple_scrubber_control
+com.optics.ronchigram.R$drawable: int purple_scrubber_control_disabled_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_control_focused_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_control_normal_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_control_pressed_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_primary_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_progress
+com.optics.ronchigram.R$drawable: int purple_scrubber_secondary_holo
+com.optics.ronchigram.R$drawable: int purple_scrubber_track_holo_light
+com.optics.ronchigram.R$drawable: int purple_scrubber_track_holo_light2
+com.optics.ronchigram.R$drawable: int saturn
+com.optics.ronchigram.R$id: int About
+com.optics.ronchigram.R$id: int Disclaimer
+com.optics.ronchigram.R$id: int Instructions
+com.optics.ronchigram.R$id: int LoadConfig
+com.optics.ronchigram.R$id: int SaveConfig
+com.optics.ronchigram.R$id: int ad_view
+com.optics.ronchigram.R$id: int adjust_height
+com.optics.ronchigram.R$id: int adjust_width
+com.optics.ronchigram.R$id: int autoFocusButton
+com.optics.ronchigram.R$id: int diameterBar
+com.optics.ronchigram.R$id: int diameterView
+com.optics.ronchigram.R$id: int focalLengthBar
+com.optics.ronchigram.R$id: int focalLengthView
+com.optics.ronchigram.R$id: int gratingBar
+com.optics.ronchigram.R$id: int gratingView
+com.optics.ronchigram.R$id: int imgLogo
+com.optics.ronchigram.R$id: int imgRonchiLogo
+com.optics.ronchigram.R$id: int indexLogo
+com.optics.ronchigram.R$id: int layout
+com.optics.ronchigram.R$id: int main_view
+com.optics.ronchigram.R$id: int none
+com.optics.ronchigram.R$id: int offsetBar
+com.optics.ronchigram.R$id: int offsetView
+com.optics.ronchigram.R$id: int popup
+com.optics.ronchigram.R$id: int ronchigramView
+com.optics.ronchigram.R$id: int saveImageButton
+com.optics.ronchigram.R$id: int scrollingHorizonatalView
+com.optics.ronchigram.R$id: int textRenderingStatusView
+com.optics.ronchigram.R$id: int textView1
+com.optics.ronchigram.R$id: int textView2
+com.optics.ronchigram.R$id: int zoomInButton
+com.optics.ronchigram.R$id: int zoomOutButton
+com.optics.ronchigram.R$integer: int google_play_services_version
+com.optics.ronchigram.R$layout: int activity_main
+com.optics.ronchigram.R$layout: int activity_splash
+com.optics.ronchigram.R$layout: int popup_layout
+com.optics.ronchigram.R$menu: int activity_main
+com.optics.ronchigram.R$mipmap: int ic_launcher
+com.optics.ronchigram.R$string: int About
+com.optics.ronchigram.R$string: int Disclaimer
+com.optics.ronchigram.R$string: int Instructions
+com.optics.ronchigram.R$string: int LoadConfig
+com.optics.ronchigram.R$string: int SaveConfig
+com.optics.ronchigram.R$string: int accept
+com.optics.ronchigram.R$string: int app_name
+com.optics.ronchigram.R$string: int auth_google_play_services_client_facebook_display_name
+com.optics.ronchigram.R$string: int auth_google_play_services_client_google_display_name
+com.optics.ronchigram.R$string: int banner_ad_unit_id
+com.optics.ronchigram.R$string: int common_google_play_services_unknown_issue
+com.optics.ronchigram.R$string: int create_calendar_message
+com.optics.ronchigram.R$string: int create_calendar_title
+com.optics.ronchigram.R$string: int decline
+com.optics.ronchigram.R$string: int interstitial_ad_unit_id
+com.optics.ronchigram.R$string: int no_camera
+com.optics.ronchigram.R$string: int store_picture_message
+com.optics.ronchigram.R$string: int store_picture_title
+com.optics.ronchigram.R$style: int AppBaseTheme
+com.optics.ronchigram.R$style: int AppTheme
+com.optics.ronchigram.R$style: int Theme_IAPTheme
+com.optics.ronchigram.R$style: int Theme_NoBackground
+com.optics.ronchigram.R$style: int TransparentExpandableListView
+com.optics.ronchigram.R$style: int TransparentListView
+com.optics.ronchigram.R$styleable: int[] AdsAttrs
+com.optics.ronchigram.R$styleable: int AdsAttrs_adSize
+com.optics.ronchigram.R$styleable: int AdsAttrs_adSizes
+com.optics.ronchigram.R$styleable: int AdsAttrs_adUnitId
+com.optics.ronchigram.R$styleable: int[] LoadingImageView
+com.optics.ronchigram.R$styleable: int LoadingImageView_circleCrop
+com.optics.ronchigram.R$styleable: int LoadingImageView_imageAspectRatio
+com.optics.ronchigram.R$styleable: int LoadingImageView_imageAspectRatioAdjust
+com.optics.ronchigram.SplashScreen
+com.optics.ronchigram.SplashScreen: SplashScreen()

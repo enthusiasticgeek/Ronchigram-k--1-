@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <integer name="google_play_services_version">8487000</integer>
+    <string name="About">About</string>
+    <string name="Disclaimer">Disclaimer</string>
+    <string name="Instructions">Instructions</string>
+    <string name="LoadConfig">Load Settings</string>
+    <string name="SaveConfig">Save Settings</string>
+    <string name="accept">Accept</string>
+    <string name="app_name">Ronchigram [k=-1]</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1143201676063557/3280734621</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1143201676063557/3408172222</string>
+    <string name="no_camera">No Cameras found!</string>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <style name="AppBaseTheme" parent="android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/app_background</item>
+        <item name="android:listViewStyle">@style/TransparentListView</item>
+        <item name="android:expandableListViewStyle">@style/TransparentExpandableListView</item>
+    </style>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <style name="Theme.NoBackground" parent="android:Theme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="TransparentExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+    <style name="TransparentListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+</resources>
