@@ -3,7 +3,7 @@ Android source for Rochigram[K=-1] for Amateur Telescope Making (ATM) for mirror
 
 ![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/Rochigram/app/src/main/res/drawable-xhdpi/ic_launcher.png "Rochigram [k=-1] Android")
 
-##### Build on Android Studio
+#### Build on Android Studio
 https://developer.android.com/studio/index.html
 
 #### System Requirements:
