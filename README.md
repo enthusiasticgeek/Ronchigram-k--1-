@@ -1,5 +1,5 @@
 # Ronchigram[k=-1]
-#### Android source for Rochigram[k=-1] for Amateur Telescope Making (ATM) for mirror polishing.
+#### Android source for Rochigram[k=-1] for Amateur Telescope Making (ATM) for mirror polishing (Dobsonian/Newtonian Type Telescope).
 
 ![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/Rochigram/app/src/main/res/drawable-xhdpi/ic_launcher.png "Rochigram [k=-1] Android")
 
