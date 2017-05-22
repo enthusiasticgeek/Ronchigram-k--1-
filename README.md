@@ -16,3 +16,6 @@ https://developer.android.com/studio/index.html
 
 1. Camera Preview for Live Video Feed (with provision for **Zoom In, Zoom Out, AutoFocus, Save Pic (Snapshot)**). Quality depends camera and Handset hardware.
 2. Offset range improved **+7 " to -7 "**
+
+![alt text] (https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/ronchigram_screenshot.png "Ronchigram")
+
