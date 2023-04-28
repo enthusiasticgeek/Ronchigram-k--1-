@@ -5,7 +5,9 @@
  */
 package com.optics.ronchigram;
 
+import android.Manifest;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
@@ -21,6 +23,7 @@ import android.os.PowerManager;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -40,10 +43,8 @@ import android.content.SharedPreferences;
 import android.widget.ZoomButton;
 import android.widget.ZoomButtonsController;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
+import pub.devrel.easypermissions.EasyPermissions;
+
 
 class GlobalConstants {
     public static final int ronchigram_width = 125;
@@ -54,7 +55,7 @@ class GlobalConstants {
     public static final int ronchigram_height_offset = 0;//(bitmap_height-ronchigram_height)/4;
     public static final float scaleFactorX = (float)((float)bitmap_width/(float)ronchigram_width);
     public static final float scaleFactorY = (float)((float)bitmap_height/(float)ronchigram_height);
-    public static final int ronchigram_background_color = Color.YELLOW;
+    public static final int ronchigram_background_color = Color.YELLOW; //Color.parseColor("#FFFFFF");
     public static final int ronchigram_foreground_color = Color.DKGRAY;
     public static final int bitmap_background_color = Color.BLACK;
     public static final int bitmap_skip_pixels_interval = 1;
@@ -68,6 +69,7 @@ class GlobalConstants {
 
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
+    private static final int CAMERA_REQUEST_CODE = 100;
     private SeekBar offsetBar;
     private TextView offsetView;
     private TextView diameterView;
@@ -86,9 +88,8 @@ public class MainActivity extends Activity {
     //private Button instructions;
     private TextView renderingStatusView;
     private TextView marqueeHorizontalView;
+    private TextView toastView;
 
-    private AdView mAdView;
-    private InterstitialAd mInterstitialAd;
 
     //private Button closeAbout;
     //The "x" and "y" position of the "Show Button" on screen.
@@ -98,6 +99,16 @@ public class MainActivity extends Activity {
     private SurfaceView glsv;
     private MainView mView;
     private PowerManager.WakeLock mWL;
+
+    private void askAboutCamera(){
+
+        EasyPermissions.requestPermissions(
+                this,
+                "From this point camera permission is required.",
+                CAMERA_REQUEST_CODE,
+                Manifest.permission.CAMERA );
+    }
+
 
     public double twoDigitRoundedDouble(double value){
         if (value != 0.0){
@@ -111,27 +122,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart(){
         super.onStart();
-
-        final Toast toast = Toast.makeText(this,"Read the rolling text for important information", Toast.LENGTH_SHORT);
-        //final Toast toast = Toast.makeText(this,"Instructions:\nFirst, set the attributes 'Diameter', 'Focal Length' and 'Grating'.\nThen adjust the attribute 'Offset' to view the desired Ronchigram.\nThe attributes 'Zoom+/-', 'Autofocus' and 'Save Pic' allows one to compare the actual Ronchigram with the one rendered from this App and save a snapshot at the folder location '/Ronchigram[k=-1]' on an external storage.\"", Toast.LENGTH_SHORT);
-        LinearLayout toastLayout = (LinearLayout) toast.getView();
-        TextView toastTV = (TextView) toastLayout.getChildAt(0);
-        toastTV.setTextSize(15);
-        toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-        CountDownTimer timer = null;
-        timer = new CountDownTimer(3000, 1000)
-        {
-            public void onTick(long millisUntilFinished)
-            {
-                toast.show();
-            }
-            public void onFinish()
-            {
-                toast.cancel();
-            }
-
-        }.start();
-
+        askAboutCamera();
+        toastMessage("Welcome to Ronchigram App! Click 3 vertical dots on the top right corner to get started!");
+        marqueeHorizontalView.setSelected(true);
     }
 
     @Override
@@ -141,33 +134,8 @@ public class MainActivity extends Activity {
         if(!mWL.isHeld()) {
             mWL.acquire();
         }
-
-        final Toast toast = Toast.makeText(this,"Read the rolling text for important information.", Toast.LENGTH_SHORT);
-        //final Toast toast = Toast.makeText(this,"Instructions:\nFirst, set the attributes 'Diameter', 'Focal Length' and 'Grating'.\nThen adjust the attribute 'Offset' to view the desired Ronchigram.\nThe attributes 'Zoom+/-', 'Autofocus' and 'Save Pic' allows one to compare the actual Ronchigram with the one rendered from this App and save a snapshot at the folder location '/Ronchigram[k=-1]' on an external storage.\"", Toast.LENGTH_SHORT);
-        LinearLayout toastLayout = (LinearLayout) toast.getView();
-        TextView toastTV = (TextView) toastLayout.getChildAt(0);
-        toastTV.setTextSize(15);
-        toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-        CountDownTimer timer = null;
-        timer = new CountDownTimer(3000, 1000)
-        {
-            public void onTick(long millisUntilFinished)
-            {
-                toast.show();
-            }
-            public void onFinish()
-            {
-                toast.cancel();
-            }
-            public void onCancel(){
-
-            }
-
-        }.start();
-
-        if (mAdView != null) {
-            mAdView.resume();
-        }
+        toastMessage("Welcome to Ronchigram App! Click 3 vertical dots on the top right corner to get started!");
+        marqueeHorizontalView.setSelected(true);
     }
 
     /** Called when leaving the activity */
@@ -177,9 +145,7 @@ public class MainActivity extends Activity {
             mWL.release();
         }
         mView.onPause();
-        if (mAdView != null) {
-            mAdView.pause();
-        }
+
         super.onPause();
     }
 
@@ -188,9 +154,6 @@ public class MainActivity extends Activity {
     public void onDestroy() {
         if (mWL.isHeld()) {
             mWL.release();
-        }
-        if (mAdView != null) {
-            mAdView.destroy();
         }
         super.onDestroy();
     }
@@ -239,9 +202,11 @@ public class MainActivity extends Activity {
     */
 
     public void displayInterstitial() {
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        }
+
+    }
+
+    public void setOffsetFromButton(int offset){
+        offsetBar.setProgress(offset);
     }
 
     public void LoadFromPref()
@@ -329,7 +294,7 @@ public class MainActivity extends Activity {
 
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        mWL = ((PowerManager) getSystemService(Context.POWER_SERVICE)).newWakeLock(PowerManager.FULL_WAKE_LOCK, "WakeLock");
+        mWL = ((PowerManager) getSystemService(Context.POWER_SERVICE)).newWakeLock(PowerManager.FULL_WAKE_LOCK, "rochigram:WakeLock");
         mWL.acquire();
 
         ctx = this;
@@ -351,45 +316,18 @@ public class MainActivity extends Activity {
         ronchiImageView = (ImageView) findViewById(R.id.ronchigramView);
         ronchiImageView.setImageBitmap(bitmap);
         renderingStatusView = (TextView) findViewById(R.id.textRenderingStatusView);
-        marqueeHorizontalView = (TextView) findViewById(R.id.scrollingHorizonatalView);
+        marqueeHorizontalView = (TextView) findViewById(R.id.scrollingHorizontalView);
         zoomInButton = (Button) findViewById(R.id.zoomInButton);
         zoomOutButton = (Button) findViewById(R.id.zoomOutButton);
         autoFocusButton = (Button) findViewById(R.id.autoFocusButton);
         saveImageButton = (Button) findViewById(R.id.saveImageButton);
-
-
+        toastView = (TextView) findViewById(R.id.text_toast);
         mView = (MainView) findViewById(R.id.main_view);
         //mView = new MainView(this);
         //mView.setX(100);
         //mView.setY(100);
         //addContentView(mView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
         //addContentView(mView, new ViewGroup.LayoutParams(320, 240));
-
-
-        // Create the InterstitialAd and set the adUnitId.
-        mInterstitialAd = new InterstitialAd(this);
-        // Defined in res/values/strings.xml
-        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
-
-
-        AdRequest adRequestInterstetial = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequestInterstetial);
-        mInterstitialAd.setAdListener(new AdListener() {
-            public void onAdLoaded() {
-                //mView.stopPreview();
-                displayInterstitial();
-            }
-            public void onAdClosed(){
-                //mView.startPreview();
-            }
-        });
-
-
-
-
-        // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
-        // values/strings.xml.
-        mAdView = (AdView) findViewById(R.id.ad_view);
 
         // Create an ad request. Check your logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
@@ -399,13 +337,6 @@ public class MainActivity extends Activity {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         */
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-
-        // Start loading the ad in the background.
-        mAdView.loadAd(adRequest);
-
         //snapShot = (Button) findViewById(R.id.surfaceViewButton);
         //snapShot.setText("Take Picture");
         //instructions = (Button) findViewById(R.id.instructionsViewButton);
@@ -456,7 +387,7 @@ public class MainActivity extends Activity {
         saveImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                mView.saveImage();
+                mView.saveImage(); toastMessage("Saving Image to the 'Pictures' folder with the format 'ronchi_<epoch_time>.jpg...");
             }
         });
 
@@ -468,7 +399,7 @@ public class MainActivity extends Activity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 thread0.updateRonchigram(0.01 * (seekBar.getProgress() - GlobalConstants.ronchigram_offset_offset),
-                        0.5 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
+                        0.25 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
                         (focalLengthBar.getProgress() + GlobalConstants.ronchigram_focal_length_offset),
                         (gratingBar.getProgress() + GlobalConstants.ronchigram_grating_offset)
                 );
@@ -487,18 +418,18 @@ public class MainActivity extends Activity {
         });
 
         // Initialize the textview with '0'
-        diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.5 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
+        diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.25 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
         diameterBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                //thread.updateRonchigram(0.5 * (seekBar.getProgress() - GlobalConstants.ronchigram_diameter_offset));
+                //thread.updateRonchigram(0.25 * (seekBar.getProgress() - GlobalConstants.ronchigram_diameter_offset));
                 thread0.updateRonchigram(0.01 * (offsetBar.getProgress() - GlobalConstants.ronchigram_offset_offset),
-                        0.5 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
+                        0.25 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
                         (focalLengthBar.getProgress() + GlobalConstants.ronchigram_focal_length_offset),
                         (gratingBar.getProgress() + GlobalConstants.ronchigram_grating_offset)
                 );
                 renderingStatusView.setText("Please wait...Rendering the image.");
-                diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.5 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
+                diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.25 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
             }
 
             @Override
@@ -507,7 +438,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.5 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
+                diameterView.setText("Diameter: "+twoDigitRoundedDouble(0.25 * (seekBar.getProgress() + GlobalConstants.ronchigram_diameter_offset))+" inches");
             }
         });
 
@@ -517,7 +448,7 @@ public class MainActivity extends Activity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 thread0.updateRonchigram(0.01 * (offsetBar.getProgress() - GlobalConstants.ronchigram_offset_offset),
-                        0.5 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
+                        0.25 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
                         (seekBar.getProgress() + GlobalConstants.ronchigram_focal_length_offset),
                         (gratingBar.getProgress() + GlobalConstants.ronchigram_grating_offset)
                 );
@@ -541,7 +472,7 @@ public class MainActivity extends Activity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 thread0.updateRonchigram(0.01 * (gratingBar.getProgress() - GlobalConstants.ronchigram_grating_offset),
-                        0.5 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
+                        0.25 * (diameterBar.getProgress() + GlobalConstants.ronchigram_diameter_offset),
                         (focalLengthBar.getProgress() + GlobalConstants.ronchigram_focal_length_offset),
                         (seekBar.getProgress() + GlobalConstants.ronchigram_grating_offset)
                 );
@@ -566,95 +497,73 @@ public class MainActivity extends Activity {
         inflater.inflate(R.menu.activity_main, menu);
         return true;
     }
+
+
+    public void toastMessage(String message){
+        // Retrieve the Layout Inflater and inflate the layout from xml
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.custom_toast_layout,
+                (ViewGroup) findViewById(R.id.toast_layout_root));
+        // get the reference of TextView and ImageVIew from inflated layout
+        TextView toastTextView = (TextView) layout.findViewById(R.id.toastTextView);
+        ImageView toastImageView = (ImageView) layout.findViewById(R.id.toastImageView);
+        // set the text in the TextView
+        toastTextView.setText(message);
+        // set the Image in the ImageView
+        toastImageView.setImageResource(R.drawable.ic_launcher);
+        // create a new Toast using context
+        Toast toast = new Toast(getApplicationContext());
+        //toast.setDuration(Toast.LENGTH_LONG); // set the duration for the Toast
+        toast.setView(layout); // set the inflated layout
+        toast.show(); // display the custom Toast
+    }
+
+    public void userMessage(String title, String message){
+        new AlertDialog.Builder(this)
+                .setTitle(title)
+                .setMessage(message)
+                .setPositiveButton("OK", null)
+                .show();
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
-        switch (item.getItemId()) {
-            case R.id.About:
-                final Toast toast = Toast.makeText(this, "Author: Pratik M Tambe (C) 2016\nVersion 0.4\nCredits: \n(1) Code Inspiration: brainwagon (Mark VandeWettering) - GitHub\n(2) Amateur Telescope Making Class: Guy Brandenburg  \n(3) National Capital Astronomers, Washington D.C. Metro Area", Toast.LENGTH_LONG);
-                LinearLayout toastLayout = (LinearLayout) toast.getView();
-                TextView toastTV = (TextView) toastLayout.getChildAt(0);
-                toastTV.setTextSize(15);
-                toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                CountDownTimer timer = null;
-                timer = new CountDownTimer(8000, 1000)
-                {
-                    public void onTick(long millisUntilFinished)
-                    {
-                        toast.show();
-                    }
-                    public void onFinish()
-                    {
-                        toast.cancel();
-                    }
 
-                }.start();
+            if (item.getItemId() == R.id.About){
+                userMessage("About","Author: \nPratik M Tambe (C) 2016-2023\nRelease Version: 0.5\n\nPurpose: Amateur Telescope Making - Primary mirror surface evaluation (Parabolic mirror -> [k=-1])\n\nCredits: \n\n(1) Math Equations Reference: brainwagon (Mark VandeWettering) - GitHub: https://github.com/brainwagon/ronchi\n\n(2) Amateur Telescope Making (ATM) Class: Guy Brandenburg, Alan Tarica \n\n(3) National Capital Astronomers (NCA), Washington D.C. Metro Area");
                 return true;
-            case R.id.Disclaimer:
-                final Toast toast1 = Toast.makeText(this, "Disclaimer:\nThis App/software is supplied \"AS IS\" without any warranties and support.\n\nThe author assumes no responsibility or liability for the use of the App/software, conveys no license or title under any patent, or copyright.\n\nThe author reserves the right to make changes in the App/software without notification. The author also makes no representation or warranty that such application will be suitable for the specified use without further testing or modification.", Toast.LENGTH_LONG);
-                LinearLayout toastLayout1 = (LinearLayout) toast1.getView();
-                TextView toastTV1 = (TextView) toastLayout1.getChildAt(0);
-                toastTV1.setTextSize(15);
-                toast1.show();
-                toast1.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                CountDownTimer timer1 = null;
-                timer1 = new CountDownTimer(20000, 1000)
-                {
-                    public void onTick(long millisUntilFinished)
-                    {
-                        toast1.show();
-                    }
-                    public void onFinish()
-                    {
-                        toast1.cancel();
-                    }
-
-                }.start();
+            }
+            else if (item.getItemId() == R.id.Disclaimer) {
+                userMessage("Disclaimer","This App/software is supplied \"AS IS\" without any warranties and support.\nThe author assumes no responsibility or liability for the use of the App/software, conveys no license or title under any patent, or copyright.\nThe author reserves the right to make changes in the App/software without notification. The author also makes no representation or warranty that such application will be suitable for the specified use without further testing or modification.");
                 return true;
-            case R.id.LoadConfig:
-                final Toast toast2 = Toast.makeText(this, "Loading saved preferences...", Toast.LENGTH_SHORT);
-                LinearLayout toastLayout2 = (LinearLayout) toast2.getView();
-                TextView toastTV2 = (TextView) toastLayout2.getChildAt(0);
-                toastTV2.setTextSize(15);
-                toast2.show();
-                toast2.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
+            }
+            else if (item.getItemId() == R.id.LoadConfig) {
+                toastMessage("Loading saved preferences...");
                 LoadFromPref();
                 return true;
-            case R.id.SaveConfig:
-                final Toast toast3 = Toast.makeText(this, "Saving preferences...", Toast.LENGTH_SHORT);
-                LinearLayout toastLayout3 = (LinearLayout) toast3.getView();
-                TextView toastTV3 = (TextView) toastLayout3.getChildAt(0);
-                toastTV3.setTextSize(15);
-                toast3.show();
-                toast3.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                StoreToPref();
+            }
+            else if (item.getItemId() == R.id.SaveConfig) {
+                toastMessage("Saving user preferences...");
+                new AlertDialog.Builder(this)
+                        .setTitle("Are you sure you want to save settings?")
+                        .setMessage("This will over-write any prior saved changes. Proceed?")
+                        .setPositiveButton("Yes", (dialog, which) -> {
+                            StoreToPref();
+                            dialog.dismiss();
+                        })
+                        .setNegativeButton("No", (dialog, which) -> dialog.dismiss())
+                        .show();
+                //StoreToPref();
                 return true;
-            case R.id.Instructions:
-                final Toast toast4 = Toast.makeText(this, "Instructions:\n1. Set the attributes 'Diameter', 'Focal Length' and 'Grating'.\n2. Adjust the attribute 'Offset' to view the desired Ronchigram Simulation.\n3. Click on the attributes 'Zoom +' or 'Zoom -' to obtain the desired Ronchigram Field Of View (FOV).\n4. Click on the attribute 'Autofocus' once step # 3. is executed.\n5. Click on the attribute 'Save Pic' to save a snapshot at the folder location '/Ronchigram[k=-1]' on an external storage.\n\nAny android file explorer app may be used to view the snapshot.\nNote: Camera Preview (Live Video Stream) quality may vary depending on the handset hardware.\nThis process allows one to compare the actual Ronchigram with the one rendered from this App.\n", Toast.LENGTH_LONG);
-                LinearLayout toastLayout4 = (LinearLayout) toast4.getView();
-                TextView toastTV4 = (TextView) toastLayout4.getChildAt(0);
-                toastTV4.setTextSize(15);
-                toast4.show();
-                toast4.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                CountDownTimer timer2 = null;
-                timer2 = new CountDownTimer(25000, 1000)
-                {
-                    public void onTick(long millisUntilFinished)
-                    {
-                        toast4.show();
-                    }
-                    public void onFinish()
-                    {
-                        toast4.cancel();
-                    }
-
-                }.start();
+            }
+            else if (item.getItemId() == R.id.Instructions) {
+                this.userMessage("Instructions:","\n\n1. Load prior settings from the menu (if any). One may also save the current settings in the menu.\nThis is the preferred method for convenience. \n\n2. Set the attributes 'Diameter', 'Focal Length' and 'Grating'.\n\n3. Adjust the attribute 'Offset' to view the desired Ronchigram simulation. This is simulating turning the knob CW/CCW on the apparatus to move it either closer or farther from the initial point of reference\nand compare this to the one seen in the camera.");
                 return true;
-            default:
+            }
+            else {
                 return super.onOptionsItemSelected(item);
-        }
+            }
     }
-
 
     public class Vec{
         double [] pt = new double [3];
@@ -670,7 +579,7 @@ public class MainActivity extends Activity {
     //Diameter of the mirror in inches e.g. 6 inches
     //double diameter = 6.0 ;
     //focal length of the mirror in inches e.g. 48 inches (or 96 inches ROC - Radius Of Curvature)
-    //double     flen = 48.0 ;
+    //double flen = 48.0 ;
     //Offset in inches
     //double   offset = 0.0;
     //Grating lines per unit - e.g. 100
@@ -678,7 +587,7 @@ public class MainActivity extends Activity {
     //For Parabola K = -1.0
     //################################ Example Paramaters #########################################
     //Diameter of the mirror in inches e.g. 6 inches
-    double diameter = 0.5 * (0 + GlobalConstants.ronchigram_diameter_offset) ;
+    double diameter = 0.25 * (0 + GlobalConstants.ronchigram_diameter_offset) ;
     //focal length of the mirror in inches e.g. 48 inches (or 96 inches ROC - Radius Of Curvature)
     double     flen = (0 + GlobalConstants.ronchigram_focal_length_offset) ;
     //Offset in inches
@@ -767,7 +676,9 @@ public class MainActivity extends Activity {
                 // compute the intersection of R
                 // with the plane z = R + offset
                 t = (double) (2.0 * flen + offset - P.pt[2]) / (double) R.pt[2];
-
+                if ( t <= 0.0 ){
+                    t = 1;
+                }
                 assert (t > 0.0);
 
                 gx = (double) (P.pt[0] + t * R.pt[0]) * 2.0 * grating - 0.5;

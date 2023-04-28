@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "8,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "317,17",
+                        "endLines": "10,3",
+                        "endColumns": "12,12",
+                        "endOffsets": "451,147"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,143",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "138,271"
+                    }
+                }
+            ]
+        }
+    ]
+}

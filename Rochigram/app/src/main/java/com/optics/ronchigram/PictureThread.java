@@ -175,7 +175,9 @@ public class PictureThread extends Thread{
                 // compute the intersection of R
                 // with the plane z = R + offset
                 t = (double) (2.0 * flen + offset - P.pt[2]) / (double) R.pt[2];
-
+                if (t <= 0) {
+                    t = 1;
+                }
                 assert (t > 0.0);
 
                 gx = (double) (P.pt[0] + t * R.pt[0]) * 2.0 * grating - 0.5;

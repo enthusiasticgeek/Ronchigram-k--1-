@@ -16,6 +16,7 @@ import android.view.Display;
 import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,6 +26,9 @@ import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -117,7 +121,7 @@ public class MainRenderer implements GLSurfaceView.Renderer, SurfaceTexture.OnFr
         mSTexture.setOnFrameAvailableListener(this);
 
 
-        mCamera = Camera.open();
+        mCamera = Camera.open(0);
         setCameraDisplayOrientation(activity);
         Camera.Parameters params = mCamera.getParameters();
         try {
@@ -131,6 +135,24 @@ public class MainRenderer implements GLSurfaceView.Renderer, SurfaceTexture.OnFr
 
         hProgram = loadShader ( vss, fss );
     }
+
+    private int findFrontFacingCamera() {
+        int cameraId = 0;
+        boolean cameraFront = false;
+        // Search for the front facing camera
+        int numberOfCameras = Camera.getNumberOfCameras();
+        for (int i = 0; i < numberOfCameras; i++) {
+            Camera.CameraInfo info = new Camera.CameraInfo();
+            Camera.getCameraInfo(i, info);
+            if (info.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+                cameraId = i;
+                cameraFront = true;
+                break;
+            }
+        }
+        return cameraId;
+    }
+
 
     public void onDrawFrame ( GL10 unused ) {
         GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
@@ -485,6 +507,28 @@ public class MainRenderer implements GLSurfaceView.Renderer, SurfaceTexture.OnFr
         mCamera.stopPreview();
     }
 
+    private void checkAndCreateFolder()
+    {
+        File myFolder=new File(Environment.getExternalStorageDirectory(),"Pictures");
+        if(!myFolder.exists() || myFolder.isFile()){
+            if(myFolder.isFile()){
+                //Toast.makeText(getApplicationContext(), "'MyFolder' exists as file", Toast.LENGTH_LONG).show();
+                return;
+            }
+            try{
+                myFolder.mkdir();
+                File myChild=new File(myFolder.getAbsolutePath()+File.separator+"Rochigram[k=-1]");
+                myChild.mkdir();
+
+                //Toast.makeText(getApplicationContext(), "Directories created successfully", Toast.LENGTH_SHORT).show();
+            } catch(Exception e){
+                //Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
+            }
+
+
+        }
+    }
+
     private class SaveImageTask extends AsyncTask<byte[], Void, Void> {
         @Override
         protected Void doInBackground(byte[]... data) {
@@ -492,13 +536,14 @@ public class MainRenderer implements GLSurfaceView.Renderer, SurfaceTexture.OnFr
 
             // Write to SD Card
             try {
+                //checkAndCreateFolder();
                 File sdCard = Environment.getExternalStorageDirectory();
-                File dir = new File(sdCard.getAbsolutePath() + "/Rochigram[k=-1]");
+                //File sdCard = Environment.getDataDirectory();
+                File dir = new File(sdCard.getAbsolutePath() + "/Pictures");
+                //File dir = new File(sdCard.getAbsolutePath() + "/Pictures");
                 dir.mkdirs();
-
-                String fileName = String.format("%d.jpg", System.currentTimeMillis());
+                String fileName = String.format("ronchi_%d.jpg", System.currentTimeMillis());
                 File outFile = new File(dir, fileName);
-
                 outStream = new FileOutputStream(outFile);
                 outStream.write(data[0]);
                 outStream.flush();

@@ -1,20 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.optics.ronchigram"
     signingConfigs {
         release {
-            storeFile file("C:\\pratiktambereleasekey.keystore")
+            storeFile file("file:///home/virgo/pratiktambereleasekey.keystore")
             storePassword "PratikTambe7700@@"
             keyAlias "PratikTambeReleaseKey"
             keyPassword "PratikTambe7700@@"
         }
     }
-    compileSdkVersion 15
+    compileSdkVersion 33
     buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "com.optics.ronchigram"
         minSdkVersion 15
-        targetSdkVersion 15
+        targetSdkVersion 33
         signingConfig signingConfigs.release
     }
     signingConfigs {
@@ -38,6 +39,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:24.0.0-alpha1'
-    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'com.google.android.gms:play-services-ads:8.4.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
 }

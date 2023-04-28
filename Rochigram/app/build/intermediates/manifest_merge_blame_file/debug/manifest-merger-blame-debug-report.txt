@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Author: Pratik M Tambe (c) 2016 -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.optics.ronchigram"
+5    android:versionCode="4"
+6    android:versionName="0.4" >
+7
+8    <uses-sdk
+8-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+9        android:minSdkVersion="15"
+9-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:9:9-35
+10        android:targetSdkVersion="33" />
+10-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:10:9-38
+11
+12    <!--
+13    <uses-feature
+14    android:glEsVersion="0x00020000"
+15    android:required="true" />
+16    <uses-feature android:name="android.hardware.camera" />
+17    <uses-permission android:name="android.permission.CAMERA" />
+18    <uses-permission android:name="android.hardware.camera.autofocus" />
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20    -->
+21
+22    <uses-feature
+22-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:5-77
+23        android:glEsVersion="0x00020000"
+23-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:19-51
+24        android:required="true" />
+24-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:52-75
+25    <uses-feature android:name="android.hardware.camera2" />
+25-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:5-60
+25-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:19-58
+26    <uses-feature
+26-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:24:5-26:35
+27        android:name="android.hardware.camera"
+27-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:25:9-47
+28        android:required="true" />
+28-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:26:9-32
+29
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:5-65
+30-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:22-62
+31    <uses-permission android:name="android.hardware.camera.autofocus" />
+31-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:5-73
+31-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:22-70
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:5-81
+32-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:22-78
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:5-80
+33-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:22-77
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:5-68
+34-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:22-65
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:5-66
+35-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:22-64
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:5-78
+36-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:22-76
+37
+38    <application
+38-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:36:5-67:19
+39        android:allowBackup="true"
+39-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:37:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.0.1] /home/virgo/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:18-86
+41        android:background="#8800bb"
+41-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:41:9-37
+42        android:debuggable="true"
+43        android:icon="@drawable/ic_launcher"
+43-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:38:9-45
+44        android:label="@string/app_name"
+44-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:39:9-41
+45        android:testOnly="true"
+46        android:textStyle="bold"
+46-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:40:9-33
+47        android:theme="@style/AppTheme" >
+47-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:42:9-40
+48
+49        <!-- Splash screen -->
+50        <activity
+50-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:44:9-54:20
+51            android:name="com.optics.ronchigram.SplashScreen"
+51-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:45:13-62
+52            android:exported="true"
+52-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:49:13-36
+53            android:label="@string/app_name"
+53-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:46:13-45
+54            android:screenOrientation="portrait"
+54-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:47:13-49
+55            android:theme="@android:style/Theme.Black.NoTitleBar" >
+55-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:48:13-66
+56            <intent-filter>
+56-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:50:13-53:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:17-69
+57-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:17-77
+59-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:27-74
+60            </intent-filter>
+61        </activity>
+62        <!-- This meta-data tag is required to use Google Play Services. -->
+63        <!-- <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/> -->
+64
+65        <activity
+65-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:58:9-61:20
+66            android:name="com.optics.ronchigram.MainActivity"
+66-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:59:13-62
+67            android:label="@string/app_name" >
+67-->/home/virgo/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:60:13-45
+68        </activity>
+69
+70        <!-- Include the AdActivity configChanges and theme. -->
+71        <!--
+72             <activity android:name="com.google.android.gms.ads.AdActivity"
+73            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+74            android:theme="@android:style/Theme.Translucent" />
+75        -->
+76        <activity
+76-->[pub.devrel:easypermissions:3.0.0] /home/virgo/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+77            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+77-->[pub.devrel:easypermissions:3.0.0] /home/virgo/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+78            android:exported="false"
+78-->[pub.devrel:easypermissions:3.0.0] /home/virgo/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+79            android:label=""
+79-->[pub.devrel:easypermissions:3.0.0] /home/virgo/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+80            android:theme="@style/EasyPermissions.Transparent" />
+80-->[pub.devrel:easypermissions:3.0.0] /home/virgo/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+81    </application>
+82
+83</manifest>
