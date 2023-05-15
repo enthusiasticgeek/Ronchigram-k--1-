@@ -1,7 +1,7 @@
 # Ronchigram[k=-1]
 #### Android source for Rochigram[k=-1] for Amateur Telescope Making (ATM) for mirror polishing (Dobsonian/Newtonian Type Telescope).
 
-![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/Rochigram/app/src/main/res/drawable-xhdpi/ic_launcher.png "Rochigram [k=-1] Android")
+![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/Rochigram/app/src/main/res/drawable-xhdpi/ic_launcher.png "Rochigram[k=-1] Android")
 
 #### Build on Android Studio
 https://developer.android.com/studio/index.html
@@ -19,5 +19,4 @@ https://developer.android.com/studio/index.html
 
 **Note: One would have to build their own keystore for this project. Openssl used to generate keystore for this project.**
 
-![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/ronchigram_screenshot0.png "Ronchigram")
-
+![alt text](https://raw.githubusercontent.com/enthusiasticgeek/Ronchigram-k--1-/master/Screenshot_20230514-234406_Ronchigram%20%5Bk%3D-1%5D.jpg "ronchi")
