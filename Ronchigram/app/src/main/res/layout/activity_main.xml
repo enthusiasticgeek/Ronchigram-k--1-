@@ -1,0 +1,456 @@
+<!-- Author: Pratik M Tambe (c) 2016 - 2023 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:textStyle="bold"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/text_toast"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:textColor="#8800bb"
+            android:textStyle="bold" />
+        <!--
+        <TextView android:id="@+id/text_toast"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="" /> -->
+    </LinearLayout>
+
+
+
+
+
+    <!-->android:layout_alignLeft="@+id/gratingView"-->
+
+    <!--
+    <com.optics.ronchigram.MainView
+        android:id="@+id/main_view"
+        android:background="@drawable/camera_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_height="214dp"
+        android:layout_width="214dp"
+        android:gravity="center" />
+    -->
+    <com.optics.ronchigram.MainView
+        android:id="@+id/main_view"
+        android:layout_width="140dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/camera_border"
+        android:gravity="center"
+   />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/main_view"
+        android:layout_above="@+id/ronchigramView"
+        android:layout_below="@+id/buttonOpenImagePicker"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="1dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonOpenImagePicker"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Open Pictures"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_background"
+        android:layout_toLeftOf="@+id/main_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="13dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/PictureView"
+        android:text="Click above for photos!\nPinch/expand along app's border to zoom."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/main_view"
+        android:layout_above="@+id/ronchigramView"
+        android:layout_below="@+id/buttonOpenImagePicker"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:textColor="#8800bb"
+        android:textSize="11dp"
+        android:textStyle="bold" />
+  <!--
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:id="@+id/ronchigramView"
+        android:contentDescription="Ronchigram"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/image_border"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        />
+    -->
+
+    <ImageView
+        android:id="@+id/ronchigramView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_below="@+id/main_view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/image_border"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/zoomInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background"
+        android:layout_toRightOf="@+id/main_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Zoom +"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/zoomOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background"
+        android:layout_toRightOf="@+id/main_view"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/zoomInButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Zoom -"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/autoFocusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background"
+        android:layout_toRightOf="@+id/main_view"
+        android:layout_below="@+id/zoomOutButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Autofocus"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/saveImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background"
+        android:layout_toRightOf="@+id/main_view"
+        android:layout_below="@+id/autoFocusButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Save Pic"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textRenderingStatusView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ronchigramView"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/saturn"
+        android:gravity="center"
+        android:textColor="#8800bb"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/offsetBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRenderingStatusView"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:max="1400"
+        android:progress="700"
+        android:progressDrawable="@drawable/purple_scrubber_progress"
+        android:thumb="@drawable/purple_scrubber_control" />
+
+    <TextView
+        android:id="@+id/offsetView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offsetBar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/saturn"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/diameterText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offsetBar"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Offset Value (float)"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/diameterTextUnit"
+        android:text="Diameter (inches)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/diameterText"
+        android:layout_below="@+id/offsetView"
+        android:layout_centerInParent="true"
+        android:gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/focalLengthText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diameterText"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Focal Len Value (float)"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/focalLengthTextUnit"
+        android:text="Focal Length (inches)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/focalLengthText"
+        android:layout_below="@+id/diameterTextUnit"
+        android:layout_centerInParent="true"
+        android:gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/gratingText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/focalLengthText"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Granting Lines (Int)"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+        <TextView
+        android:id="@+id/gratingTextUnit"
+        android:text="Grating Lines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gratingText"
+        android:layout_below="@+id/focalLengthTextUnit"
+        android:layout_centerInParent="true"
+        android:gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <!--
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/gratingView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/surfaceViewButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ronchigramView"
+        android:background="@drawable/button_press"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFF00"
+        android:layout_alignParentLeft="true" />
+        -->
+
+<!--
+    <Button
+        android:id="@+id/instructionsViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_press"
+        android:layout_below="@+id/textRenderingStatusView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_centerInParent="true" />
+    -->
+
+    <TextView
+        android:id="@+id/scrollingHorizontalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gratingText"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="3"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="#8800bb"
+        android:textColor="#FFFF00"
+        android:text="Click the 3 vertical dots in the menu to get started!" />
+
+
+
+    <!--android:layout_below="@+id/surfaceViewButton" -->
+<!--
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cameraView"
+        android:contentDescription="Ronchigram"
+        android:layout_below="@+id/gratingView"
+        android:layout_alignLeft="@+id/ronchigramView" />
+    -->
+
+</RelativeLayout>

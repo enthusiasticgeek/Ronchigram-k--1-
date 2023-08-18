@@ -1,0 +1,4 @@
+#Thu Aug 17 13:38:48 EDT 2023
+base.0=/home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

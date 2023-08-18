@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.optics.ronchigram"
+    signingConfigs {
+        release {
+            storeFile file("file:///home/rekor/pratiktambereleasekey.keystore")
+            storePassword "PratikTambe7700@@"
+            keyAlias "PratikTambeReleaseKey"
+            keyPassword "PratikTambe7700@@"
+        }
+    }
+    compileSdkVersion 33
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "com.optics.ronchigram"
+        minSdkVersion 15
+        targetSdkVersion 33
+        signingConfig signingConfigs.release
+    }
+    signingConfigs {
+        release {
+            storeFile file("myreleasekey.keystore")
+            storePassword "password"
+            keyAlias "MyReleaseKey"
+            keyPassword "password"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+            pseudoLocalesEnabled true
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'com.google.android.gms:play-services-ads:8.4.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+}
