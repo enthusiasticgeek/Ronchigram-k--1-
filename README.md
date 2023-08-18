@@ -3,9 +3,9 @@
 
 #### Originally this app was written for the convenience of Guy Brandenburg's ATM class - National Capital Astronomers (NCA), Washington DC, USA.
 
-	http://www.capitalastronomers.org/
+http://www.capitalastronomers.org/
 
-	https://guysmathastro.com/
+https://guysmathastro.com/
 
 #### Build on Android Studio
 https://developer.android.com/studio/index.html
