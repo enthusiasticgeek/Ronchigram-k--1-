@@ -19,4 +19,4 @@ https://developer.android.com/studio/index.html
 
 **Note: One would have to build their own keystore for this project. Openssl used to generate keystore for this project.**
 
-![alt text](https://raw.githubusercontent.com/enthusiasticgeek/Ronchigram-k--1-/master/Screenshot_20230514-234406_Ronchigram%20%5Bk%3D-1%5D.jpg "ronchi")
+![alt text](https://raw.githubusercontent.com/enthusiasticgeek/Ronchigram-k--1-/master/Ronchigram_v0.8.jpg "ronchi")
