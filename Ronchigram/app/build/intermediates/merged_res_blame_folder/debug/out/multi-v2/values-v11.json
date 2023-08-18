@@ -4,7 +4,7 @@
             "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/res/values-v11/styles.xml",
+                    "source": "/home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "8,1",
                         "startColumns": "4,4",

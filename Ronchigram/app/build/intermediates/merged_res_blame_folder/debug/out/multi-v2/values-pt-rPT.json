@@ -4,7 +4,7 @@
             "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "/home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

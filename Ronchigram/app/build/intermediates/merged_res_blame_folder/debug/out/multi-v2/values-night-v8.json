@@ -4,7 +4,7 @@
             "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -1,232 +1,232 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/rekor/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:2:1-19:12
-MERGED from [androidx.media:media:1.0.0] /home/rekor/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] /home/rekor/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/rekor/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rekor/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rekor/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/rekor/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/rekor/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rekor/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/rekor/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rekor/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rekor/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rekor/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/rekor/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rekor/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rekor/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rekor/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rekor/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rekor/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gmail/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.media:media:1.0.0] /home/gmail/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gmail/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gmail/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gmail/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gmail/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/gmail/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/gmail/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gmail/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gmail/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gmail/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gmail/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gmail/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/gmail/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gmail/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gmail/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gmail/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gmail/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gmail/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
 	package
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:1-70:12
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:6:5-30
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:4:5-51
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:4:5-51
 	xmlns:android
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:11-69
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:5:5-28
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/rekor/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/rekor/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.media:media:1.0.0] /home/rekor/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/rekor/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/rekor/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/rekor/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/rekor/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/rekor/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rekor/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rekor/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rekor/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rekor/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/rekor/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/rekor/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/rekor/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/rekor/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rekor/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rekor/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rekor/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/rekor/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/rekor/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rekor/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rekor/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rekor/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rekor/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rekor/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rekor/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/rekor/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/rekor/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rekor/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rekor/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rekor/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rekor/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rekor/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rekor/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rekor/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rekor/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rekor/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rekor/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rekor/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
-INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gmail/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gmail/.gradle/caches/transforms-3/2c5217761a4ad56ecdc4b94e78492405/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.media:media:1.0.0] /home/gmail/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/gmail/.gradle/caches/transforms-3/de9f3e395204806d38d55d62ec01a916/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gmail/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gmail/.gradle/caches/transforms-3/f3f175bd030c829e3feb5d6496a0f9bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gmail/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gmail/.gradle/caches/transforms-3/b23ba34271307e72648bb9df72c4dc68/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gmail/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gmail/.gradle/caches/transforms-3/2e04e1870f1e01439895f42d4847f186/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gmail/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gmail/.gradle/caches/transforms-3/5532b3cbec1601c01b6235de990717a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gmail/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gmail/.gradle/caches/transforms-3/546d4bc68ec85a8120517b15b62dc38b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2eb6369fb666d8c17cdcf42896777fe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/7e5a31dc0924ca881f79c7566c64de51/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/9098a8c7c1fee2643cc9b761748cd5b4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/c2a53fa53334b39b5d6a6771697cc800/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gmail/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gmail/.gradle/caches/transforms-3/5a17ef8621490bb773401904fad32747/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gmail/.gradle/caches/transforms-3/54923c5b3dc204b71b11797b50b829b8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gmail/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gmail/.gradle/caches/transforms-3/092d0d3dc94d0454ba4b81310ba9dd66/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gmail/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gmail/.gradle/caches/transforms-3/d2c4a426ff5896a32e0333515a6c77e2/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gmail/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gmail/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gmail/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gmail/.gradle/caches/transforms-3/3217a7b58a8fc6c763799ee115ae35b1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gmail/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gmail/.gradle/caches/transforms-3/e955da626a3fb0b49faa6dcf12a4f6a2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gmail/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gmail/.gradle/caches/transforms-3/e15e0c47fb3dde4d9ec9696347094b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gmail/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gmail/.gradle/caches/transforms-3/3894e5f58ab393766c3f47283285615c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gmail/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gmail/.gradle/caches/transforms-3/fd7b603704272d08423d2d37fee5ab16/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gmail/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gmail/.gradle/caches/transforms-3/7fb4be2bd5ce8fae4d0ad6810095a008/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/14a9ddc0ed652952b39ce6c59b361dd1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gmail/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gmail/.gradle/caches/transforms-3/8e2aa67f29fd3f00654f3c85c161f1ef/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gmail/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gmail/.gradle/caches/transforms-3/c6c5a947a3a0493e35884d04cdcc0547/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gmail/.gradle/caches/transforms-3/79f5e9ca0227e1fe20695e48432ceaa8/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:10:9-38
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:9:9-35
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:5-77
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:5-77
 	android:glEsVersion
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:19-51
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:19-51
 	android:required
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:52-75
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:22:52-75
 uses-feature#android.hardware.camera2
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:5-60
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:5-60
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:19-58
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:23:19-58
 uses-feature#android.hardware.camera
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:24:5-26:35
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:24:5-26:35
 	android:required
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:26:9-32
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:26:9-32
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:25:9-47
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:25:9-47
 uses-permission#android.permission.CAMERA
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:5-65
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:22-62
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:28:22-62
 uses-permission#android.hardware.camera.autofocus
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:5-73
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:5-73
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:22-70
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:29:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:5-81
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:5-81
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:22-78
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:30:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:5-80
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:5-80
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:22-77
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:31:22-77
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:5-68
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:5-68
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:22-65
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:32:22-65
 uses-permission#android.permission.INTERNET
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:5-66
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:5-66
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:22-64
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:33:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:5-78
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:5-78
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:22-76
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:34:22-76
 application
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:36:5-68:19
-MERGED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rekor/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rekor/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:36:5-68:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gmail/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gmail/.gradle/caches/transforms-3/fee6cdadd191a9e5743591acfe9892a6/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /home/rekor/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /home/gmail/.gradle/caches/transforms-3/e915f286d686a6bec1de08fb483d424d/transformed/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:textStyle
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:40:9-33
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:40:9-33
 	android:label
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:39:9-41
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:39:9-41
 	android:background
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:41:9-37
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:41:9-37
 	android:icon
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:38:9-45
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:38:9-45
 	android:allowBackup
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:37:9-35
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:37:9-35
 	android:theme
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:42:9-40
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:42:9-40
 activity#com.optics.ronchigram.SplashScreen
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:44:9-54:20
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:44:9-54:20
 	android:screenOrientation
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:47:13-49
 	android:label
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:46:13-45
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:46:13-45
 	android:exported
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:49:13-36
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:49:13-36
 	android:theme
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:48:13-66
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:48:13-66
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:45:13-62
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:45:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:50:13-53:29
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:50:13-53:29
 action#android.intent.action.MAIN
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:17-69
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:25-66
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:51:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:17-77
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:27-74
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:52:27-74
 activity#com.optics.ronchigram.MainActivity
-ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:58:9-62:20
+ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:58:9-62:20
 	android:screenOrientation
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:60:13-49
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:61:13-45
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:61:13-45
 	android:name
-		ADDED from /home/rekor/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:59:13-62
+		ADDED from /home/gmail/AndroidStudioProjects/Ronchigram-k--1-/Rochigram/app/src/main/AndroidManifest.xml:59:13-62
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
-ADDED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+ADDED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
 	android:label
-		ADDED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:15:13-29
 	android:exported
-		ADDED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:14:13-37
 	android:theme
-		ADDED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:16:13-63
 	android:name
-		ADDED from [pub.devrel:easypermissions:3.0.0] /home/rekor/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/gmail/.gradle/caches/transforms-3/48d97ffa01a69899aef9c81e2c76eb39/transformed/easypermissions-3.0.0/AndroidManifest.xml:13:13-86

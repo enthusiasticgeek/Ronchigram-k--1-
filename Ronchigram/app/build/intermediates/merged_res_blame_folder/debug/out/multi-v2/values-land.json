@@ -4,7 +4,7 @@
             "outputFile": "com.optics.ronchigram.app-mergeDebugResources-7:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/rekor/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-land/values-land.xml",
+                    "source": "/home/gmail/.gradle/caches/transforms-3/0d910ed180f0158b69149d3abc70a005/transformed/appcompat-1.0.2/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

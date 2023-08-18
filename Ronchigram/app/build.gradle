@@ -4,7 +4,7 @@ android {
     namespace "com.optics.ronchigram"
     signingConfigs {
         release {
-            storeFile file("file:///home/rekor/pratiktambereleasekey.keystore")
+            storeFile file("file:///home/gmail/pratiktambereleasekey.keystore")
             storePassword "PratikTambe7700@@"
             keyAlias "PratikTambeReleaseKey"
             keyPassword "PratikTambe7700@@"
