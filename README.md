@@ -1,14 +1,18 @@
 # Ronchigram[k=-1]
 #### Android source for Rochigram[k=-1] for Amateur Telescope Making (ATM) for mirror polishing (Dobsonian/Newtonian Type Telescope).
 
-![alt text](https://github.com/enthusiasticgeek/Ronchigram-k--1-/blob/master/Rochigram/app/src/main/res/drawable-xhdpi/ic_launcher.png "Rochigram[k=-1] Android")
+#### Originally this app was written for the convenience of Guy Brandenburg's ATM class - National Capital Astronomers (NCA), Washington DC, USA.
+
+	http://www.capitalastronomers.org/
+
+	https://guysmathastro.com/
 
 #### Build on Android Studio
 https://developer.android.com/studio/index.html
 
 #### System Requirements:
 
-1. **OS:** **Android 4.0.3** Ice Cream Sandwich.
+1. **OS:** **Android 12**
 2. **Camera:** A decent video quality Back Facing Camera on a Handset (with **Zoom** and **Autofocus** features enabled).
 3. **GPU:** **OpenGL 2** supported GPU on a Handset for fast video rendering.
 
