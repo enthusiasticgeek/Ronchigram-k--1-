@@ -556,6 +556,8 @@ public class MainActivity extends Activity {
                     } catch (NumberFormatException e) {
                         diameterText.setError("Invalid input"); // Set error for non-numeric input
                     }
+                } else {
+                    diameterText.setError(null); // Clear error when gratingText is empty
                 }
             }
 
@@ -601,6 +603,8 @@ public class MainActivity extends Activity {
                     } catch (NumberFormatException e) {
                         focalLengthText.setError("Invalid input"); // Set error for non-numeric input
                     }
+                } else {
+                    focalLengthText.setError(null); // Clear error when gratingText is empty
                 }
             }
 
@@ -645,6 +649,8 @@ public class MainActivity extends Activity {
                     } catch (NumberFormatException e) {
                         gratingText.setError("Invalid input"); // Set error for non-numeric input
                     }
+                } else {
+                    gratingText.setError(null); // Clear error when gratingText is empty
                 }
             }
 
