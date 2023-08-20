@@ -10,4 +10,13 @@
     <string name="LoadConfig">Load Settings</string>
     <string name="SaveConfig">Save Settings</string>
     <string name="Instructions">Instructions</string>
+    <string-array name="color_names">
+        <item>WHITE</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>ORANGE</item>
+        <item>PURPLE</item>
+    </string-array>
 </resources>

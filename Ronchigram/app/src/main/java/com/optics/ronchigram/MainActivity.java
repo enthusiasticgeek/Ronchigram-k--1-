@@ -42,17 +42,22 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.SharedPreferences;
 import android.widget.ZoomButton;
 import android.widget.ZoomButtonsController;
+
+import androidx.annotation.NonNull;
 
 import pub.devrel.easypermissions.EasyPermissions;
 
@@ -66,7 +71,7 @@ class GlobalConstants {
     public static final int ronchigram_height_offset = 0;//(bitmap_height-ronchigram_height)/4;
     public static final float scaleFactorX = (float)((float)bitmap_width/(float)ronchigram_width);
     public static final float scaleFactorY = (float)((float)bitmap_height/(float)ronchigram_height);
-    public static final int ronchigram_background_color = Color.WHITE; //Color.parseColor("#FFFFFF");
+    public static int ronchigram_background_color = Color.WHITE; //Color.parseColor("#FFFFFF");
     public static final int ronchigram_foreground_color = Color.DKGRAY;
     public static final int bitmap_background_color = Color.BLACK;
     public static final int bitmap_skip_pixels_interval = 1;
@@ -118,6 +123,8 @@ public class MainActivity extends Activity {
 
     private ScaleGestureDetector scaleGestureDetector;
     private float scaleFactor = 1.0f;
+
+    private Spinner colorSpinner;
 
 
     private void askAboutCamera(){
@@ -411,6 +418,48 @@ public class MainActivity extends Activity {
         diameterText.setText("4.25"); // Set your initial value here
         focalLengthText.setText("20"); // Set your initial value here
         gratingText.setText("100"); // Set your initial value here
+
+        colorSpinner = findViewById(R.id.colorSpinner);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+                this,
+                R.array.color_names,
+                android.R.layout.simple_spinner_item
+        );
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        colorSpinner.setAdapter(adapter);
+
+        colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedColorName = parent.getItemAtPosition(position).toString();
+                //int selectedColor = getColorForName(selectedColorName);
+                // Use the selectedColor for your desired purpose
+                GlobalConstants.ronchigram_background_color = getColorForName(selectedColorName);
+
+                float diameter1 = Float.parseFloat(diameterText.getText().toString());
+                // Getting focal_length as float
+                float focal_length1 = Float.parseFloat(focalLengthText.getText().toString());
+                // Getting grating as int
+                int grating1 = Integer.parseInt(gratingText.getText().toString());
+
+                    thread0.updateRonchigram(0.01 * (offsetBar.getProgress() - GlobalConstants.ronchigram_offset_offset),
+                            (diameter1 + GlobalConstants.ronchigram_diameter_offset),
+                            (focal_length1 + GlobalConstants.ronchigram_focal_length_offset),
+                            (grating1 + GlobalConstants.ronchigram_grating_offset)
+                    );
+                    renderingStatusView.setText("Please wait...Rendering the image.");
+                    offsetView.setText("Offset: " + twoDigitRoundedDouble(0.01 * (offsetBar.getProgress() - GlobalConstants.ronchigram_offset_offset)) + " inches");
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                // Do nothing
+            }
+        });
+
+
         //mView = new MainView(this);
         //mView.setX(100);
         //mView.setY(100);
@@ -656,7 +705,25 @@ public class MainActivity extends Activity {
 
         });
     }
-
+    private int getColorForName(@NonNull String colorName) {
+        switch (colorName) {
+            case "YELLOW":
+                return Color.YELLOW;
+            case "GREEN":
+                return Color.GREEN;
+            case "RED":
+                return Color.RED;
+            case "BLUE":
+                return Color.parseColor("#ADD8E6"); // Light blue color
+            case "ORANGE":
+                return Color.parseColor("#FFA500");
+            case "PURPLE":
+                return Color.parseColor("#9370DB"); // Slightly dark purple color
+            case "WHITE":
+            default:
+                return Color.WHITE; // Default color
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
